@@ -1,0 +1,20 @@
+{
+  "name": "lynx-ai",
+  "version": "1.0.0",
+  "description": "Lynx AI — واجهة دردشة ذكية مبنية على Gemini",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --env-file=.env --watch server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "author": "Lahcen",
+  "license": "UNLICENSED",
+  "private": true
+}
